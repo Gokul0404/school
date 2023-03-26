@@ -1,0 +1,139 @@
+/* Btn section */
+
+
+:root{
+ --color: #e6af2e;
+ --nav_color:rgb(255, 255, 255);
+ --nav_color_hov:rgb(255, 196, 0);
+}
+
+
+
+.Navbar_Main_con{
+    width: 100vw;
+ z-index: 1;
+    position:fixed;
+    transition: 0.5s ease-in-out;
+
+height: 10vh;
+   
+}
+.Navbar_Main_con_scroll{
+
+    width: 100vw;
+ z-index: 1;
+    position:fixed;
+    background-color:transparent ;
+transition:  0.5s ease-in-out;
+height: 10vh;
+-webkit-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+}
+
+.navbar{
+
+
+    height: 10vh;
+}
+ .Nav_Btn{
+
+ font-family: inherit;
+ display: inline-block;
+ width: 8.5em;
+ height: 3em;
+ line-height: 2.5em;
+ margin: 20px;
+ position: relative;
+ overflow: hidden;
+border: none;
+ transition: color .5s;
+ z-index: 1;
+ font-size: 17px;
+ border-radius: 25px;
+ font-weight: 500;
+ color:#fff ;
+ background-color:var(--color) ;
+}
+
+.Nav_Btn:before {
+ content: "";
+ position: absolute;
+ z-index: -1;
+ /* background: #f2ac08; */
+ height: 150px;
+ width: 200px;
+ border-radius: 50%;
+}
+
+.Nav_Btn:hover {
+ color: #fff;
+ /* border: 2px solid var(--color); */
+
+ -webkit-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
+}
+
+.Nav_Btn:before {
+ top: 100%;
+ left: 100%;
+ transition: all .7s;
+}
+
+.Nav_Btn:hover:before {
+ top: -30px;
+ left: -30px;
+}
+
+.Nav_Btn:active:before {
+ background: #ee3c06bf;
+ transition: 0s;
+}
+
+
+
+.navbar-toggler{
+
+    border: none;
+}
+
+.navbar-toggler:focus{
+
+ box-shadow: none;
+ border: 1px solid rgb(38, 38, 38);
+}
+
+.Nav_Contents{
+
+    color: var(--nav_color)
+}
+.Nav_Contents:focus{
+
+color: white;
+}
+.Nav_Contents:hover{
+
+    color: var(--nav_color_hov)
+}
+
+
+@media (max-width:1001px){
+
+
+    .Navbar_Main_con_scroll{
+
+
+        height: 10vh;
+    }
+}
+
+@media (min-width:1500px){
+
+  .Hole_Nav_Main{
+
+width: 90%;
+  }
+
+
+}

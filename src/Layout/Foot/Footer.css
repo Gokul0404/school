@@ -1,0 +1,86 @@
+.Fot_Main{
+
+
+
+
+    width: 100%;
+height: 60vh;
+    position: relative;
+background-color: #39385a;
+background-repeat: no-repeat;
+background-size: cover;
+    bottom: 0 !important;
+}
+
+.Fa_List{
+
+    color: white;
+    list-style: none;
+    display: flex;
+    right: 0;
+    left: 0;
+    justify-content: center;
+font-weight: 500;
+ 
+}
+.Fa_Span{
+
+    display: flex;
+   
+}
+.Fa_List_1{
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.Fa_Span_1{
+
+    display: flex;
+
+    color: white;
+}
+
+.Fo_Follow{
+
+    color: #34f6ec;
+}
+
+.Fa_Span li:hover{
+
+cursor: pointer;
+    color: var( --navbtn);
+}
+.Fa_Span_1 i:hover{
+
+    color: var(--navbtn);
+}
+
+.Fo_Img{
+
+    margin: 0;
+ 
+    padding-left: 10%;
+}
+
+.imge_Foter{
+
+    position: absolute;
+}
+
+
+
+.Fa_List_2{
+
+
+    color: white;
+}
+
+.Fo_Copy p{
+    color: white ;
+
+line-height: 50% ;
+font-size: 13px;
+
+}

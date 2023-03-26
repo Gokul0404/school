@@ -1,0 +1,111 @@
+.Conatct{
+
+    height: 100vh;
+
+}
+.Contact_Head{
+
+    font-size: 80px;
+}
+.contact-page{
+margin-top: 5%;
+padding-top: 5% !important;
+    background: rgba(125,1,178,1);
+    background: linear-gradient(175deg, rgb(99,9,138) 0%, rgba(255,255,255,1) 75%);
+    height: 80vh;
+    padding: 1%;
+
+}
+
+.contact-div{
+
+    /* margin-top: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contact-div h2{
+
+    font-weight: 750;
+    font-size: 80px;
+}
+
+.contact-div span{
+
+    color: rgba(125,1,178,1)
+}
+
+.contact-form .form-control:focus {
+  border-color:rgba(125,1,178,1);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 5px var(--homebg);
+}
+
+
+.btn-contact{
+
+    background-color: var(--navbtn);
+    border:var(--navbtn);
+    width: 18%;
+    height: 4vh;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+
+.btn-contact:hover{
+
+background-color: var(--navbtn);
+-webkit-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+}
+
+
+@media all and (orientation:portrait){
+
+
+
+    .contact-div h2{
+
+       
+        font-size: 35px;
+    }
+    .contact-div{
+
+
+        margin-top: 50%;
+       
+    }
+
+
+}
+
+
+@media (min-width:379px) and (max-width:420px) {
+
+.contact-form{
+
+    width: 88%;
+}
+
+.submit-button-wrapper {
+    width: 208%;
+}
+
+
+}
+
+@media (min-width:1400px){
+
+
+    .submit-button-wrapper{
+     margin-left: -3%;
+    }
+}
