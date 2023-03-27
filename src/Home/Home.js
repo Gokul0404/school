@@ -1,6 +1,6 @@
-import React from 'react'
-import { Image } from 'react-bootstrap';
-import '../Home/Home.css'
+import React from "react";
+import { Image } from "react-bootstrap";
+import "../Home/Home.css";
 
 export default function Home() {
   return (
@@ -12,7 +12,6 @@ export default function Home() {
         </span>
         <div className="home_cloud">
           <Image src={require("../assets/Images/cloud2.png")} fluid />
-          
         </div>
       </div>
     </div>

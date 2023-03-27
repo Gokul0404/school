@@ -1,40 +1,41 @@
-.Home_Main{
-
-
-    /* height: 123.2vh; */
-    /* height: 150vh; */
-    width: 100%;
-    /* background-color: var(--homebg); */
-background: rgb(99,9,138);
-background: linear-gradient(90deg, rgba(99,9,138,1) 0%, rgba(125,1,178,1) 42%, rgba(125,1,178,1) 69%, rgba(49,1,83,1) 100%);
-position: relative;
+.Home_Main {
+  height: 100vh;
+  /* height: 150vh; */
+  width: 100%;
+  /* background-color: var(--homebg); */
+  background: rgb(99, 9, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 9, 138, 1) 0%,
+    rgba(125, 1, 178, 1) 42%,
+    rgba(125, 1, 178, 1) 69%,
+    rgba(49, 1, 83, 1) 100%
+  );
+  position: relative;
 }
-.Home_div{
-
-    
-    color: white;
-
-
+.Home_div {
+  color: white;
+  background: url("../assets/Images/cloud2.png") !important;
 }
 
-.Home_span h2{
-    
-    font-size: 2500%;
-    font-weight: 800;
-opacity: 0.1;
-float: right;
-
-
-
+.Home_span {
+  z-index: -1;
 }
-.home_play{
 
-    margin-left: 35%;
+.Home_span h2 {
+  font-size: 2500%;
+  font-weight: 800;
+  opacity: 0.1;
+  float: right;
 }
-.Home_span_h2{
-    line-height:20% !important;
+.home_play {
+  margin-left: 35%;
 }
-.home_cloud{
-
-    position: relative;
+.Home_span_h2 {
+  line-height: 20% !important;
+  z-index: 1;
+}
+.home_cloud {
+  position: absolute;
+  bottom: 0;
 }
