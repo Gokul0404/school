@@ -28,6 +28,8 @@ export default function NavbarMain() {
           ? "Navbar_Main Navbar_Main_con_scroll"
           : "Navbar_Main Navbar_Main_con"
       }
+
+      id="nav"
     >
       <Container className="Hole_Nav_Main" fluid>
         <Navbar bg="none" expand="lg">
@@ -77,7 +79,7 @@ export default function NavbarMain() {
                   Bookmarks
                 </NavLink>
                 <NavLink
-                  to="/service"
+                  href="#contact"
                   className="px-4 text-decoration-none Nav_Contents"
                 >
                   Contact
@@ -90,8 +92,8 @@ export default function NavbarMain() {
                 </Link> */}
               </Nav>
               <Form className="d-flex">
-                <NavLink to="/contact">
-                  <button className="Nav_Btn"> Contact</button>
+                <NavLink href="#contact">
+                  <button className="Nav_Btn">Contact </button>
                 </NavLink>
               </Form>
             </Navbar.Collapse>

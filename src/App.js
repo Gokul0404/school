@@ -6,14 +6,18 @@ import Layout from './Layout/Layout';
 import Home from './Home/Home';
 import Footer from './Layout/Foot/Footer';
 import Contact from './Components/Contact';
+import Round from './round ball/Round';
 
 function App() {
   return (
     <div className="App">
       <Layout />
       <Home />
-      <Contact/>
-      <Footer/>
+      <Contact />
+
+      <Footer />
+      
+      
     </div>
   );
 }

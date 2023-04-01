@@ -4,7 +4,7 @@ import '../Components/Contact.css'
 
 export default function Contact() {
   return (
-    <div className="Conatct">
+    <div className="Conatct" id='contact'>
       <Container>
         <Row>
           <Col>

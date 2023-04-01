@@ -3,7 +3,7 @@
 
 :root{
  --color: #e6af2e;
- --nav_color:rgb(255, 255, 255);
+ --nav_color:rgb(255, 255, 255) !important;
  --nav_color_hov:rgb(255, 196, 0);
 }
 
@@ -52,8 +52,10 @@ border: none;
  font-size: 17px;
  border-radius: 25px;
  font-weight: 500;
- color:#fff ;
+ color:#fff !important;
  background-color:var(--color) ;
+ transition: 10s ease-in-out;
+ transform:10s ease-in-out;
 }
 
 .Nav_Btn:before {
@@ -110,11 +112,16 @@ box-shadow: 0px 0px 8px -2px rgba(0,0,0,0.75);
 }
 .Nav_Contents:focus{
 
-color: white;
+color: white !important;
+}
+.navbar-nav .nav-link.active{
+
+
+    color: #ffffff;
 }
 .Nav_Contents:hover{
 
-    color: var(--nav_color_hov)
+    color: var(--nav_color_hov) !important;
 }
 
 
