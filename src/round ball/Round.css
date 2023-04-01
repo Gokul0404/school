@@ -29,8 +29,10 @@
 .sun {
   width: 80px;
   height: 80px;
-  background: -webkit-linear-gradient(to right, #fcbb04, #fffc00);
-  background: linear-gradient(to right, #fcbb04, #fffc00);
+  /* background: -webkit-linear-gradient(to right, #fcbb04, #fffc00);
+  background: linear-gradient(to right, #fcbb04, #fffc00); */
+  background: rgb(255,255,255);
+background: linear-gradient(38deg, rgba(255,255,255,1) 0%, rgba(123,0,174,1) 78%);
   border-radius: 60px;
   cursor: pointer;
 
@@ -44,7 +46,7 @@
 
 .upa{
 
-    color: orangered;
+    color: rgb(255, 255, 255);
 
 }
 
