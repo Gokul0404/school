@@ -33,8 +33,8 @@ export default function Round() {
         <div class="container_sun">
           <span class="sun sunshine"></span>
           <span class="sun">
-            <span className='d-flex text-center justify-content-center pt-2 fs-1'>
-              <i class="bi bi-arrow-up-circle upa"></i>
+            <span className="d-flex text-center justify-content-center pt-2 fs-1">
+              <i class="bi bi-rocket upa"></i>
             </span>
           </span>
         </div>
